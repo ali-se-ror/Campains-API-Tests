@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  username: MyString
+  online: true
+  email: user@one.com
+  password_digest: $2a$12$7I6jtu6pdWjL.dKvqBqPNeP.l88bu5/YFDOBjhG4n.Rv4VwIFq/ua
+
+two:
+  name: MyString
+  username: MyString
+  online: true
+  email: user@one.com
+  password_digest: $2a$12$7I6jtu6pdWjL.dKvqBqPNeP.l88bu5/YFDOBjhG4n.Rv4VwIFq/ua

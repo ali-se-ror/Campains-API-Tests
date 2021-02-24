@@ -1,0 +1,327 @@
+{
+	"variables": [],
+	"info": {
+		"name": "campaigns",
+		"_postman_id": "7f085c63-8e89-e52c-0c19-294d447e250d",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/users",
+			"request": {
+				"url": "localhost:3000/users",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "ali",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "alih",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "password",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password_confirmation",
+							"value": "password",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "a@a.com",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/login",
+			"request": {
+				"url": "localhost:3000/login",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "email",
+							"value": "a@a.com",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/logout",
+			"request": {
+				"url": "localhost:3000/logout",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bear eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MTQxOTM1NTV9.1djRo6p9WdG6mXNyXivEtwOe06_yFx2a6ACjAHFWTFA",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "text",
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "a@a.com",
+							"type": "text",
+							"description": "",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/campaigns",
+			"request": {
+				"url": "localhost:3000/campaigns",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bear eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MTQxOTM1NTV9.1djRo6p9WdG6mXNyXivEtwOe06_yFx2a6ACjAHFWTFA",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/tags",
+			"request": {
+				"url": "localhost:3000/tags",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bear eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MTQxOTM1NTV9.1djRo6p9WdG6mXNyXivEtwOe06_yFx2a6ACjAHFWTFA",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/comments",
+			"request": {
+				"url": "localhost:3000/comments",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bear eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MTQxOTM1NTV9.1djRo6p9WdG6mXNyXivEtwOe06_yFx2a6ACjAHFWTFA",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/topics",
+			"request": {
+				"url": "localhost:3000/topics",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bear eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MTQxOTM1NTV9.1djRo6p9WdG6mXNyXivEtwOe06_yFx2a6ACjAHFWTFA",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/topics copy",
+			"request": {
+				"url": "localhost:3000/topics",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bear eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MTQxOTM1NTV9.1djRo6p9WdG6mXNyXivEtwOe06_yFx2a6ACjAHFWTFA",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"topic\": {\n\t\t\"title\": \"hello\",\n\t\t\"user_id\": 1,\n\t\t\"campaign_id\": 1\n\t}\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/comments copy",
+			"request": {
+				"url": "localhost:3000/comments",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bear eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MTQxOTM1NTV9.1djRo6p9WdG6mXNyXivEtwOe06_yFx2a6ACjAHFWTFA",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"comment\": {\n\t\t\"user_id\": 1,\n\t\t\"content\": \"hello\",\n\t\t\"commentable_type\": \"Topic\",\n\t\t\"commentable_id\": 15\n\t}\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/tags copy",
+			"request": {
+				"url": "localhost:3000/tags",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bear eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MTQxOTM1NTV9.1djRo6p9WdG6mXNyXivEtwOe06_yFx2a6ACjAHFWTFA",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "tag[name]",
+							"value": "hello",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/campaigns copy",
+			"request": {
+				"url": "localhost:3000/campaigns",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bear eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MTQxOTM1NTV9.1djRo6p9WdG6mXNyXivEtwOe06_yFx2a6ACjAHFWTFA",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"campaign\": {\n\t\"title\": \"hello\",\n\t\"duration\": \"witin_one_month\",\n\t\"campaign_tags_attributes\": [\n\t\t{\"tag_id\": 1},\n\t\t\t{\"tag_id\": 2}\n\t]\n}\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/campaigns copy copy",
+			"request": {
+				"url": "localhost:3000/campaigns/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bear eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MTQxOTM1NTV9.1djRo6p9WdG6mXNyXivEtwOe06_yFx2a6ACjAHFWTFA",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "ello",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "purpose",
+							"value": "world",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "duration",
+							"value": "witin_one_month",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
